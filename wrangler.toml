@@ -1,6 +1,8 @@
 name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
+# Conserva el secret cargado en el panel de Cloudflare al desplegar
+keep_vars = true
 
 [vars]
 GITHUB_CLIENT_ID = "Ov23liG8SQ80iV287ZCj"
